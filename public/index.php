@@ -1,9 +1,8 @@
 <?php
 
-use Symfony\Component\HttpFoundation\Session\Session;
-
 define('ROOT',__DIR__.'/../');
 
+require ROOT . "libs/function.php";
 /**
  * 类的自动加载
  */

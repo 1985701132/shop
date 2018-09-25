@@ -4,6 +4,18 @@ class IndexController
 {
     function index()
     {
-        echo '111111111111';
+        view("index/index");
+    }
+    function top()
+    {
+        view("index/top");
+    }
+    function menu()
+    {
+        view("index/menu");
+    }
+    function main()
+    {
+        view("index/main");
     }
 }
